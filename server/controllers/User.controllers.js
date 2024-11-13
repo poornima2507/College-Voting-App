@@ -2,7 +2,7 @@ import { User } from "../models/User.models.js";
 import {  generateToken } from "../middleware/Auth.middleware.js";
 
 const signupUser = async(req,res) => {
-
+      console.log(req.body)
       try {
             const data = req.body
             
@@ -16,9 +16,10 @@ const signupUser = async(req,res) => {
 
             const token = generateToken(payload)
             console.log("Token is",token)
-
+            console.log("first")
             res.status(200).json({success: true,response: response, token: token})
       } catch (error) {
+            console.log("second")
             res.status(500).json({success:false,msg: "Internal Server Error"})
       }
 }

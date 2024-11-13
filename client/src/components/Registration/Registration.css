@@ -12,7 +12,7 @@
 .register .image-holder{
       display: table-cell;
       width: auto;
-      background: url(../../assets/register2.webp);
+      background: url(miniFisat.png);
       background-size:cover;
       
 }
@@ -23,6 +23,12 @@
       padding: 40px 60px;
       color: #505e6c;
 }
+.error-message {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+  }
+  
 @media (max-width:991px){
       .register .form{
             padding: 40px;

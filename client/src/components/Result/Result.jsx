@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BASE_URL } from '../../service'
+import { BASE_URL } from '../../server'
 import './Result.css'
 
 const Result = () => {
@@ -43,3 +43,4 @@ const Result = () => {
 }
 
 export default Result
+//The Result component displays the election results by fetching a list of candidates and their respective vote counts from the server. It renders the candidate names, parties, and votes in a structured format, updating the UI dynamically once the data is retrieved.

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Login.css'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../store/auth'
-import { BASE_URL } from '../../service'
+import { BASE_URL } from '../../server'
 import { toast } from 'react-toastify'
 
 const Login = () => {

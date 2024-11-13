@@ -12,7 +12,7 @@
 .login .image-holder{
       display: table-cell;
       width: auto;
-      background: url(../../assets/login.avif);
+      background: url(miniFisat.png);
       background-size: cover;
 }
 .login .form{

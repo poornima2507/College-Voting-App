@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-content">
-            <p>&copy; Copyright Election Commission of India 2024</p>
+            <p>&copy; Copyright FISAT </p>
       </div>
     </div>
   )

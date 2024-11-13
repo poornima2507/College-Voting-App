@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
-import card1 from '../../assets/register.jpg'
-import card2 from '../../assets/candidate.jpg'
+import card1 from '../../assets/register.jpeg'
+import card2 from '../../assets/candidate.jpeg'
 import card3 from '../../assets/secure.jpg'
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             </div>
        </div>
        <div className="home-cards">
-            <h1>ECI OFFICIALS</h1>
+            
             <div className="card">
                   <img src={card1} alt="" />
                   <div className="card-text">
